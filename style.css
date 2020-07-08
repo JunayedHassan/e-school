@@ -27,13 +27,6 @@ li{
     padding: 7px 5px;
 }
 
-.active{
-    color: white;
-    background-color: #21B573;
-    text-decoration: none;
-    border-radius: 25px;
-}
-
 /* first part */
 .col-md-7 img{
     width: 100%;
@@ -190,6 +183,21 @@ li{
 }
 .centerpadding{
     margin: 0 70px;
+}
+
+/* form */
+form{
+    width: 60%;
+    padding-bottom: 60px;
+}
+h4{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.form-group label{
+    color:grey;
+    font-weight: 500;
 }
 
 /* footer */
