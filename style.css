@@ -199,7 +199,14 @@ h4{
     color:grey;
     font-weight: 500;
 }
-
+.btnb{
+    color: white;
+    background-color: #21B573;
+    text-decoration: none;
+    border-radius: 25px;
+    border: none;
+    padding: 5px 10px;
+}
 /* footer */
 .black{
     background-color: #282531;
