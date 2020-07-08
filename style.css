@@ -1,3 +1,249 @@
 * {
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Poppins', sans-serif ;
+}
+.bg-green{
+    background-color: #F0FFF0;
+}
+/* for navigation */
+.navbar{
+    padding-top: 15px;;
+}
+.navbar img{
+    height: 50px;
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    padding: 7px 20px;
+}
+
+.nav-item a:hover{
+    color: white;
+    background-color: #21B573;
+    text-decoration: none;
+    border-radius: 25px;
+}
+li{
+    padding: 7px 5px;
+}
+
+/* first part */
+.col-md-7 img{
+    width: 100%;
+}
+.col-md-5{
+    padding-right: 35px;
+}
+.orangetext {
+    color:#FD511A;
+    font-size: small;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.col-md-5 h2{
+    font-weight: 800;
+    line-height: 50px;
+}
+#colorgreen{
+    color: #21B573;
+}
+.greytext{
+    color: #6C6B6B;
+    font-size: small;
+    line-height: 30px;
+    padding-bottom: 10px;
+    
+}
+.col-md-5 button{
+    border:none;
+    border-radius: 25px;
+    background-color: #21B573;
+    padding: 7px 20px;
+    color: white;
+    font-size: 14px;
+}
+.col-md-5 button:hover{
+    background-color: #fd881a;
+}
+.paddingbottom{
+    padding-bottom: 50px;
+}
+
+/*catchy decks*/
+.makegap {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.card{
+    background-color: #F8FFFB;
+    border: none;
+    border-radius: 15px;
+    padding: 20px 10px;
+}
+.card:hover{
+    background-color: #FFFFFF;
+    box-shadow: 0px 20px 40px 0px lightgrey;
+}
+
+.card img{
+    width: 40%;
+}
+
+.card-body{
+    text-align: center;
+    padding-top: 0px;
+}
+.card-body .card-title{
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.card-body .card-text{
+    color: grey;
+    font-size: small;
+}
+.card-img-top{
+    padding-top: 40px;
+}
+#makesmaller{
+    width: 33%;
+}
+.h2center{
+    text-align: center;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+/* courses */
+.course .card{
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 20px 20px 2px lightgrey;
+}
+.course .card:hover{
+    background-color: #d8f0ca;
+}
+
+.course .card-deck .card-body{
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+}
+.course .card-img-top{
+    padding-top: 0px;
+    width: 100%;
+}
+
+.course .card-deck .card-title{
+    text-align: left;
+    color: #413960;
+    margin-bottom: 8px;
+}
+.course .card-deck .card-text{
+    text-align: left;   
+    color: #585859;
+}
+.course button{
+    border:none;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    background-color: #21B573;
+    padding: 5px 17px;
+    font-size: 12px;
+}
+.course button:hover{
+    background-color: #fd881a;
+}
+.card-footer {
+    border: none;
+    background-color: transparent;
+    padding: 12px 0px 0px 0px;
+}
+.card-footer img{
+    height: 24px;
+    width: 24px;
+    margin:0;
+}
+.gap{
+    padding-bottom: 80px;
+}
+/* Testimonial */
+.col-md-3 img{
+    width: 80%;
+
+}
+.col-md-9{
+    padding-right: 20px;
+}
+.col-md-9 p{
+    margin: 0;
+    text-align: left;
+    padding-right: 20px;
+}
+.centerpadding{
+    margin: 0 70px;
+}
+
+/* form */
+form{
+    width: 60%;
+    padding-bottom: 60px;
+}
+h4{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.form-group label{
+    color:grey;
+    font-weight: 500;
+}
+
+/* footer */
+.black{
+    background-color: #282531;
+}
+.list-group li {
+    border:none;
+    padding: 2px 0;
+    background-color: transparent;
+}
+.list-group a{
+    color: white;
+    font-weight: 200;
+}
+.list-group a:hover{
+    text-decoration: none;
+    color: turquoise;
+}
+.col-md-4 p{
+    padding-top: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+}
+.bottomgap{
+    
+    padding-bottom: 60px;
+}
+.col-md-2 h5{
+    color: white;
+    padding-top: 40px;
+}
+.copyright p{
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+    margin-bottom: 0;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.copyright a{
+    color: turquoise;
+}
+.copyright a:hover{
+    color: #fd881a;
+    text-decoration:none;
 }
